@@ -1,17 +1,19 @@
 {
   "name": "@skax/camel",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "build": "tsc ./index.ts",
+    "build": "tsc ./index.ts --declaration",
     "preinstall": "npx only-allow pnpm"
   },
   "keywords": ["typescript", "camel case", "lower camel", "upper camel"],
   "author": "ShineShao <xiaoshaoqq@gmail.com>",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "devDependencies": {
     "@types/node": "^18.15.3",
