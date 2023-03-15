@@ -7,8 +7,8 @@
  *
  * lowerCamel("abcce-dddd-ffff", "-") // -> abcceDdddFfff
  *
- * @param str
- * @param split split line
+ * @param {string} str
+ * @param {string} split split line
  * @returns {string}
  */
 export function lowerCamel(str: string, split: string = "_") {
@@ -28,8 +28,8 @@ export function lowerCamel(str: string, split: string = "_") {
  * upperCamel("abcce_dddd_ffff", "_") // -> AbcceDdddFfff
  *
  *
- * @param str
- * @param split split line
+ * @param {string} str
+ * @param {string} split split line
  * @returns {string}
  */
 export function upperCamel(str: string, split: string = "_") {
