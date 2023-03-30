@@ -13,7 +13,7 @@
  */
 export function lowerCamel(str: string, split: string = "_") {
   const reg = new RegExp(`${split}([a-z])`, "g");
-  return str.replace(reg, function (all, letter) {
+  return str.replace(reg, function (_, letter) {
     return letter.toUpperCase();
   });
 }
