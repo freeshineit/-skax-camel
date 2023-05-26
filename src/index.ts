@@ -11,8 +11,8 @@
  * @param {string} split split line
  * @returns {string}
  */
-export function lowerCamel(str: string, split: string = "_") {
-  const reg = new RegExp(split + "([a-z])", "g");
+export function lowerCamel(str: string, split: string = '_') {
+  const reg = new RegExp(split + '([a-z])', 'g');
   return str.replace(reg, (_, letter) => letter.toUpperCase());
 }
 
@@ -30,7 +30,7 @@ export function lowerCamel(str: string, split: string = "_") {
  * @param {string} split split line
  * @returns {string}
  */
-export function upperCamel(str: string, split: string = "_") {
+export function upperCamel(str: string, split: string = '_') {
   return lowerCamel(str, split).replace(/^\S/, function (s) {
     return s.toUpperCase();
   });
