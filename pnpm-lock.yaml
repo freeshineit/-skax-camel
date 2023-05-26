@@ -28,9 +28,6 @@ devDependencies:
   '@rollup/plugin-node-resolve':
     specifier: ^15.0.2
     version: 15.0.2(rollup@3.20.2)
-  '@rollup/plugin-terser':
-    specifier: ^0.4.1
-    version: 0.4.1(rollup@3.20.2)
   '@rollup/plugin-typescript':
     specifier: ^11.1.0
     version: 11.1.0(rollup@3.20.2)(tslib@2.5.0)(typescript@4.9.5)
@@ -2537,24 +2534,6 @@ packages:
       is-module: 1.0.0
       resolve: 1.22.2
       rollup: 3.20.2
-    dev: true
-
-  /@rollup/plugin-terser@0.4.1(rollup@3.20.2):
-    resolution:
-      {
-        integrity: sha512-aKS32sw5a7hy+fEXVy+5T95aDIwjpGHCTv833HXVtyKMDoVS7pBr5K3L9hEQoNqbJFjfANPrNpIXlTQ7is00eA==,
-      }
-    engines: { node: '>=14.0.0' }
-    peerDependencies:
-      rollup: ^2.x || ^3.x
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-    dependencies:
-      rollup: 3.20.2
-      serialize-javascript: 6.0.1
-      smob: 0.0.6
-      terser: 5.17.6
     dev: true
 
   /@rollup/plugin-typescript@11.1.0(rollup@3.20.2)(tslib@2.5.0)(typescript@4.9.5):
@@ -8225,15 +8204,6 @@ packages:
     engines: { node: '>=8' }
     dev: true
 
-  /randombytes@2.1.0:
-    resolution:
-      {
-        integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==,
-      }
-    dependencies:
-      safe-buffer: 5.2.1
-    dev: true
-
   /react-is@16.13.1:
     resolution:
       {
@@ -8664,15 +8634,6 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /serialize-javascript@6.0.1:
-    resolution:
-      {
-        integrity: sha512-owoXEFjWRllis8/M1Q+Cw5k8ZH40e3zhp/ovX+Xr/vi1qj6QesbyXXViFbpNvWvPNAD62SutwEXavefrLJWj7w==,
-      }
-    dependencies:
-      randombytes: 2.1.0
-    dev: true
-
   /set-blocking@2.0.0:
     resolution:
       {
@@ -8772,13 +8733,6 @@ packages:
         integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==,
       }
     engines: { node: '>= 6.0.0', npm: '>= 3.0.0' }
-    dev: true
-
-  /smob@0.0.6:
-    resolution:
-      {
-        integrity: sha512-V21+XeNni+tTyiST1MHsa84AQhT1aFZipzPpOFAVB8DkHzwJyjjAmt9bgwnuZiZWnIbMo2duE29wybxv/7HWUw==,
-      }
     dev: true
 
   /socks-proxy-agent@7.0.0:
