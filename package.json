@@ -2,8 +2,8 @@
   "name": "@skax/camel",
   "version": "0.2.5-rc0",
   "description": "",
-  "main": "dist/index.js",
-  "umd": "dist/index.umd.js",
+  "main": "./dist/index.js",
+  "umd": "./dist/index.umd.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -14,7 +14,6 @@
     "fmt": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",
-    "test:prod": "npm run lint && npm run test -- --no-cache",
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm"
   },
