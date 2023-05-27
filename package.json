@@ -1,6 +1,6 @@
 {
   "name": "@skax/camel",
-  "version": "0.2.5-rc0",
+  "version": "0.2.5",
   "description": "",
   "main": "./dist/index.js",
   "umd": "./dist/index.umd.js",
