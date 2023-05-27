@@ -17,7 +17,7 @@ const input = 'src/index.ts';
 
 const banner = `/*
 *
-* ${name}.js v${pkg.version}
+* ${name} v${pkg.version}
 * (c) ${new Date().getFullYear()} ${pkg.author}
 * Released under the MIT License.
 *
