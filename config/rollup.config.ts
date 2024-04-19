@@ -38,12 +38,18 @@ export default [
         banner,
       },
       {
-        //   UMD (Universal Module Definition), 希望提供一个前后端跨平台的解决方案(支持AMD与CommonJS模块方式),。
-        //   https://github.com/umdjs/umd
+        // UMD (Universal Module Definition), 希望提供一个前后端跨平台的解决方案(支持AMD与CommonJS模块方式),。
+        // https://github.com/umdjs/umd
         // https://leohxj.gitbooks.io/front-end-database/javascript-modules/about-umd.html
         file: pkg.umd,
         format: 'umd',
         name,
+        sourcemap: isDev,
+        banner,
+      },
+      {
+        file: pkg.module,
+        format: 'esm',
         sourcemap: isDev,
         banner,
       },
